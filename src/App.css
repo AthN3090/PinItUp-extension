@@ -1,38 +1,66 @@
-.App {
+@font-face {
+  font-family: 'Righteous';
+  src: local('Righteous'), url(./fonts/Righteous-Regular.ttf) format('opentype');
+}
+:root{
+  --clr1: #1A1A2E;
+  --clr2: #16213E;
+  --clr3: #0F3460;
+  --clr4: #8b1428;
+  --font-color: #6a9bd6;
+
+}
+body{
+  background-color: var(--clr1);
+  color: var(--font-color);
+  margin: 0px;
+}
+body *::-webkit-scrollbar {
+  width: 5px;
+}
+body *::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: var(--font-color);
+  
+}
+
+.App{
+  
+  margin: 0;
+  width: 350px;
+  background-color: var(--clr1);
+
+}
+button{
+  outline: none;
+  background: none;
+  border: none;
+}
+.banner{
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  padding: 5px 5px;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  border-bottom: solid 1.5px rgb(50, 55, 64)
 
-.App-link {
-  color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.banner-image{
+  padding: 5px;
+}
+.banner-name{
+  font-family:Righteous;
+  font-size: 24px;
+  padding: 5px 0px;
+}
+.folder-card{
+  margin: 5px 0px;
+  padding: 5px 5px;
+  background-color: var(--clr2);
+}
+a{
+  border-color: aliceblue;
+  text-decoration: none;
+  outline: none;
+  color: black;
 }

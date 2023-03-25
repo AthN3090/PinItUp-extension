@@ -1,0 +1,135 @@
+
+.folderName-input{
+        font-weight: bold;
+        padding: 0px 5px;
+        outline: none;
+        background: none;
+        border: none;
+        border-radius: 3px;
+        height: 30px;
+        font-size: 16px;
+        color: var(--font-color);
+
+}
+.folderName-input:hover{
+    background: var(--clr3);
+}
+
+.folderName-input:focus{
+    border-radius: 4px;
+    outline: solid 1px var(--font-color);
+    background: none;
+}
+
+
+.tabview-navbar{
+    display: flex;
+    align-items: center;
+    padding: 5px 5px;
+    justify-content: space-between;
+}
+.add-current-tab-btn{
+    margin: 7px auto;
+    display: block;
+    color: var(--font-color);
+    font-size: 16px;
+    padding: 7px;
+    border-radius: 3px;
+}
+.add-current-tab-btn:hover{
+    cursor: pointer;
+    
+    background-color: var(--clr3);
+}
+.popup-menu{
+    width: 130px;
+    display: none;
+    position: absolute;
+    font-size: 16px;
+    background-color: var(--clr1);
+    border: solid 1px #323740;
+    right: 20px;
+    top:95px;
+    padding: 5px;
+    border-radius: 3px;
+}
+.back-btn{
+    border-radius: 3px;
+}
+.popup-menu-btn{
+    border-radius: 3px;
+    padding: 4px;
+}
+.popup-menu-btn:hover, .back-btn:hover{
+    background-color: var(--clr3);
+    cursor: pointer;
+}
+.popup-menu > button{
+    padding: 5px 5px;
+    color: var(--font-color);
+    font-size: 16px;
+    padding: 7px;
+    margin: 2px 0px;
+    font-size: 14px;
+    text-align: left;
+    width: 100%;
+    border-radius: 3px;
+}
+.popup-menu > button:hover{
+    cursor: pointer;
+    background-color: var(--clr3);
+    
+
+}
+.tab-container{
+    display: flex;
+    margin: 0px 7px 7px 7px;
+}
+.tab-container{
+    cursor: pointer;
+}
+.all-tab-container{
+    height: 450px;
+    overflow-y: scroll;
+
+}
+.tab-card{
+    width: 88%;
+    margin: 0;
+    padding: 10px 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(130deg, hsla(213, 73%, 22%, 1) 0%, hsla(224, 48%, 16%, 1) 100%);
+}
+.tab-card-content > p{
+    margin: 0;
+    color: #dbdbdb;
+
+}
+
+.tab-card-content > p:nth-child(1){
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+
+.tab-card-content > p:nth-child(2){
+    font-size: 12px;
+    color: #8b8b8b;
+}
+.tab-card-content{
+    margin: 0px 10px;
+}
+
+.tabdelete-button{
+    width: 12%;
+    padding: 0px;
+    background-color: var(--clr3);
+    transition: 0.25s;
+}
+
+.tabdelete-button:hover{
+    background-color: var(--clr4);
+    cursor: pointer;
+    transition: 0.25s;
+}

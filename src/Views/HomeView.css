@@ -1,0 +1,18 @@
+.newfolder-button{
+    margin: 10px auto;
+    display: block;
+    color: var(--font-color);
+    font-size: 16px;
+    padding: 7px;
+    border-radius: 3px;
+
+}
+.newfolder-button:hover{
+    cursor: pointer;
+    background-color: var(--clr3);
+}
+.folder-container{
+    height: 470px;
+    overflow-y: auto;
+    
+}

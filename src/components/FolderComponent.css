@@ -1,0 +1,45 @@
+.folder-component{
+    display: flex;
+    margin: 0px 7px 7px 7px;
+
+}
+.folder-card{
+    width: 88%;
+    margin: 0;
+    padding: 10px 10px;
+    color: #dbdbdb;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(130deg, hsla(213, 73%, 22%, 1) 0%, hsla(224, 48%, 16%, 1) 100%);
+
+
+}
+.delete-button{
+    width: 12%;
+    padding: 0px;
+    background-color: var(--clr3);
+    transition: 0.25s;
+}
+.delete-button:hover{
+    background-color: var(--clr4);
+    cursor: pointer;
+    transition: 0.25s;
+}
+.folder-content-container > *{
+    margin: 0;
+    
+}
+
+.folder-content-container{
+    font-size: 16px;
+    display: inline-block;
+    margin: 0px 10px;
+}
+.folder-content-container > p:nth-child(1){
+    font-size: 16px;
+    font-weight: 700;
+}
+.folder-content-container > p:nth-child(2){
+    font-size: 12px;
+    color: #8b8b8b;
+}
