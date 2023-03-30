@@ -19,13 +19,13 @@
 </p>
 
 <p align="center">
-   <img width="700px"  src="./mockeup1.PNG" />
+   <img width="700px"  src="./mockeup1.png" />
 </p>
 <p align="center">
-   <img width="700px"  src="./mockup2.PNG" />
+   <img width="700px"  src="./mockup2.png" />
 </p>
 <p align="center">
-   <img width="700px" src="./mockup3.PNG" />
+   <img width="700px" src="./mockup3.png" />
 </p>
 
 
