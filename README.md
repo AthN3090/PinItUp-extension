@@ -30,11 +30,16 @@
 
 
 ## About The Project
-Description
-Features implemented:
+PinItUp is a modern bookmarking extension that helps you organize your bookmarks all in one place with ease.
 
-1. **point** - description
+Features:
+1. Intuitive user interface
+2. Organize bookmarks into different folders
+3. Bookmark all currently active tabs
+4. Bookmark selected tabs
+5. Open all tabs of a folder
 
-## Download PinItUp
 
+## Install PinItUp
+Download from [Chrome Web Store](https://chrome.google.com/webstore/detail/pinitup/bdlikbaegahppphbllkecmegphbaodnm)
 
